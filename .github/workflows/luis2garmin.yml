@@ -5,7 +5,7 @@ name: luis2garmin
 # Controls when the action will run.
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/60 * * * *'
 
 jobs:
   sync:
