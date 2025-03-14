@@ -25,7 +25,7 @@ jobs:
     steps:
 
     - name: ⚙ Configure output directory
-      run: echo "OUTPUT_DIR=/app/output" >> $GITHUB_ENV
+      run: sudo echo "OUTPUT_DIR=/app/output" >> $GITHUB_ENV
 
     - name: 📁Create output directory
       run: sudo mkdir -p ${{ env.OUTPUT_DIR }}
